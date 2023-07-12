@@ -7,6 +7,7 @@ import com.general.generic.BaseClass;
 import com.mouseaction.pom.HomePage;
 
 public class MouseOver extends BaseClass{
+	//mouse over testsrcipt
 	
 	@Test
 	public void testMouseOver() throws InterruptedException {
