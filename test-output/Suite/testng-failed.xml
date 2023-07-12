@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.actitiime.testscript.CustomerModule">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.actitiime.testscript.CustomerModule -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.actitiime.testscript.CustomerModule">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.actitiime.testscript.CustomerModule -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.actitiime.testscript.CustomerModule">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.actitiime.testscript.CustomerModule -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
